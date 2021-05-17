@@ -1,0 +1,11 @@
+
+Considering the operatinghours (when there is no change in operatinghours the device is OFF)
+
+	- Split the data to 2 different dataset (data with devices turned ON & OFF)
+
+	- Considered the data with turned ON for EDA
+
+Most of the cases the roomtemp reaches usertemp and stays there
+	- when user temp is 25 and roomtemp is 27, when device is turned ON the roomtemp reaches 25 and stays the same
+	in these cases the roomtemp cannot reach 80% of usertemp i.e., 20
+	So considered the time taken to reach from roomtemp to usertemp
